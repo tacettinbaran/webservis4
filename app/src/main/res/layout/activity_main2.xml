@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:context=".Activities.MainActivity2">
+	
+	<TextView android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:id="@+id/postIdEdittext"
+	          android:text="Post Id : "/>
+	<TextView android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:id="@+id/idEdittext"
+	          android:text="Id : "/>
+	<TextView android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:id="@+id/nameEdittext"
+	          android:text="Name : "/>
+	<TextView android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:id="@+id/emailEdittext"
+	          android:text="Email : "/>
+	<TextView android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:id="@+id/bodyEdittext"
+	          android:text="Body : "/>
+
+</LinearLayout>
